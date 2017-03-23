@@ -1,0 +1,12 @@
+html{
+    height:100%;
+}
+h1{
+    white-space: nowrap;
+}
+.center{
+    text-align: center;
+}
+.auto{
+    margin: auto;
+}
