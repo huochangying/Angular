@@ -1,4 +1,4 @@
-html{
+html,body{
     height:100%;
 }
 h1{
@@ -9,4 +9,7 @@ h1{
 }
 .auto{
     margin: auto;
+}
+.paddingUse{
+    padding:20px;
 }

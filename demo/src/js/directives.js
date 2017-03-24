@@ -11,7 +11,7 @@ directive.directive('resize', function ($window) {
                 var _element = angular.element(element);
                 var _winowHeight = $window.innerHeight;
                 var _divHeight = element[0].offsetHeight;
-                var _height = (_winowHeight - _divHeight) / 2;
+                var _height = ((_winowHeight - _divHeight) / 2)-20;
                 _height > 0 ? _element.css('marginTop', _height + 'px') : null;
             }
         },
